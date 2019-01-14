@@ -1,1 +1,1 @@
-# Main-Server-SCI
+In the form of Nukkit, Spigot, and Bukkit plugins
