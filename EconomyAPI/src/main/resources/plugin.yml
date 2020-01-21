@@ -1,0 +1,27 @@
+name: EconomyAPI
+version: 1.12.0
+author: Fahrul8676
+api: ["1.0.1"]
+main: me.onebone.economyapi.EconomyAPI
+
+permissions:
+  economyapi:
+    children:
+      economyapi.command:
+        children:
+          economyapi.command.mycoin:
+            default: true
+          economyapi.command.topcoin:
+            default: true
+          economyapi.command.seecoin:
+            default: true
+          economyapi.command.givecoin:
+            default: op
+          economyapi.command.takecoin:
+            default: op
+          economyapi.command.paycoin:
+            default: true
+          economyapi.command.setcoin:
+            default: op
+          economyapi.command.setlang:
+            default: op
