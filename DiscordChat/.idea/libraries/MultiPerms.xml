@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MultiPerms">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/MultiPerms.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
