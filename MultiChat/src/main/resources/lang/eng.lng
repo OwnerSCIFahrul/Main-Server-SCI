@@ -1,0 +1,27 @@
+lng_load_fail: Failed to load languages from file. Default message used
+lng_save_fail: Failed to save lang file
+lng_print_fail: Failed to print message %1%. Sender object is null.
+lng_config: '[MESSAGES] Messages: %1% Language: %2% Save translate file: %1% Debug
+  mode: %3%'
+word_unknown: Unknown
+wrong_permission: You have not enough permissions to execute this command
+permission_fail: You have not enough permissions to execute this command
+player_commad_only: You can use this command in-game only!
+cmd_registered: 'Command registered: %1%'
+cmd_failed: Failed to execute command. Type %1% to get help!
+hlp_title: '%1% | Help'
+chat_cmd: 'MulitChat command. For more info type: /chat help'
+chat_reload: /chat reload - reload chat configuration
+chat_reloaded: MultiChat configuration reloaded
+chat_set: /chat set <chat|tag> <message format> - configure chat or name tag format
+chat_failformat: 'Wrong chat format. It must contain placeholders: %player% - player
+  name, %message% - messsage'
+chat_failtagformat: Wrong name tag format. It must contain placeholder %player% - player name
+chat_settag_ok: 'Name tag format is set to: "%1%"'
+chat_set_ok: 'Chat format is set to: "%1%". Message Example:'
+chat_group_tag_ok: 'Name tag format of group %1% is set to: "%2%"'
+chat_group_chat_ok: 'Chat format of group %1% is set to: "%2%". Message Example:'
+chat_help: /chat help - show MultiChat help
+chat_help_current: 'Current chat format: %1%'
+chat_help_nametag_current: 'Use nametags: %1% Name tag format: %2%'
+chat_group_notexist: Group %1% not found. Custom group format was configured but you must confgiure MultiPerms group with same id to take effect

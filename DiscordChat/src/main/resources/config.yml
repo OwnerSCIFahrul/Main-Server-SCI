@@ -1,0 +1,40 @@
+# Masukan token robot
+botToken: ""
+# Masukan id server Discord
+serverId: ""
+# Masukan id saluran server Obrolan Discord
+channelId: ""
+
+# Mengakitfkan/menonatifkan debug
+debug: false
+
+# Mengakitfkan/menonatifkan status robot
+# Nama Robot Discord
+enableBotStatus: true
+botStatus: "Minecraft"
+
+# Mengakitfkan/menonatifkan perintah !playerlist pada Discord
+playerListCommand: true
+# Mengakitfkan/menonatifkan perintah !ip pada Discord
+ipCommand: true
+serverIp: "play.contoh.com"
+serverPort: "19132"
+
+# Mengakitfkan/menonatifkan pesan masuk ke Discord
+joinMessages: true
+# Mengakitfkan/menonatifkan pesan keluar ke Discord
+quitMessages: true
+# Mengakitfkan/menonatifkan pesan kematian ke Discord
+deathMessages: true
+# Mengakitfkan/menonatifkan pesan jalankan server ke Discord
+startMessages: true
+# Mengakitfkan/menonatifkan pesan hentikan server ke Discord
+stopMessages: true
+
+# Pesan Discord ke server
+enableDiscordToMinecraft: true
+# Pesan server ke Discord
+enableMinecraftToDiscord: true
+
+# Mengakitfkan/menonatifkan jika kamu melihat pesan Â
+windowsHost: false

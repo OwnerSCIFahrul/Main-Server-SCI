@@ -1,0 +1,17 @@
+name: MultiChat
+main: ru.nukkit.multichat.MultiChat
+version: "1.14.0"
+author: Fahrul8676
+api: ["1.0.1"]
+description: MultiChat - Plugin Format Obrolan Nukkit
+depend: [MultiPerms]
+
+permissions:
+  multichat.config.chatgroup:
+    default: op
+  multichat.config.chathelp:
+    default: op
+  multichat.config.chatreload:
+    default: op
+  multichat.config.chatset:
+    default: op
