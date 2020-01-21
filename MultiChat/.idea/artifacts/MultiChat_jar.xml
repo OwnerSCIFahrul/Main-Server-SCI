@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="MultiChat:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/MultiChat_jar</output-path>
-    <root id="archive" name="MultiChat.jar">
-      <element id="module-output" name="MultiChat" />
-    </root>
-  </artifact>
-</component>
