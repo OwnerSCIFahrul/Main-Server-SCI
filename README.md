@@ -1,5 +1,3 @@
-Read Before Try!
-
 Plugins Available That I Edit And Enhanced
 
 Sorry Indonesian Language Plugin
