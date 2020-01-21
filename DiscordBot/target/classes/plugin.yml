@@ -1,0 +1,6 @@
+name: DiscordBot
+main: discordbot.Main
+version: "1.14.0"
+api: ["1.0.1"]
+author: Fahrul8676
+description: Robot Discord Server Nukkt
