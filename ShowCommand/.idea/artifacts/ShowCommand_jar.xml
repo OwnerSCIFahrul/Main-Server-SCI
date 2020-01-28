@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ShowCommand:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ShowCommand_jar</output-path>
+    <root id="archive" name="ShowCommand.jar">
+      <element id="module-output" name="ShowCommand" />
+    </root>
+  </artifact>
+</component>

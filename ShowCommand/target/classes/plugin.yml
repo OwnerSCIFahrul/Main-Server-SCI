@@ -1,0 +1,12 @@
+main: Fahrul8676.showcommand.Main
+name: ShowCommand
+version: 1.14.0
+api: ["1.0.1"]
+load: STARTUP
+author: Fahrul8676
+
+permissions:
+  showcommand.reload:
+    default: op
+  showcommand.console:
+    default: op
