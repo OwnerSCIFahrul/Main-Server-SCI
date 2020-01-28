@@ -1,0 +1,23 @@
+name: TempBanMute
+version: 1.14.0
+api: 1.0.1
+author: Fahrul8676
+main: Fahrul8676.TempBanMute
+description: Sistem Blokir Dan Bisu
+
+permissions:
+  tempbanmute.command.check:
+    description: Memeriksa apakah pemain diblokir atau dibisukan
+    default: op
+  tempbanmute.command.tempban:
+    description: Blokirkan waktu pemain
+    default: op
+  tempbanmute.command.tempmute:
+    description: Bisukan waktu pemain
+    default: op
+  tempbanmute.command.tempunban:
+    description: Batalkan blokir pemain
+    default: op
+  tempbanmute.command.tempunmute:
+    description: Batalkan bisu pemain
+    default: op

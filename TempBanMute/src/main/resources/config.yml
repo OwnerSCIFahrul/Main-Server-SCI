@@ -1,0 +1,103 @@
+# --- MongoDB ---
+#Anda harus membuat database dan kemudian koleksi dengan MongoDB.
+MongoDB: false
+
+MongoDBUri: ""
+Database: tempbanmute
+BanCollection: bans
+MuteCollection: mutes
+
+# --- Reasons ---
+#Di sini Anda dapat mengedit/menambah/menghapus setiap alasan blokir atau alasan bisu.
+
+BanReasons:
+  #Jika Anda memiliki 7 alasan pemblokiran, Anda harus menetapkan jumlah alasan menjadi 7.
+  Count: 5
+  "1":
+    Reason: "Hacking"
+    Seconds: 3600
+  "2":
+    Reason: "Griefing"
+    Seconds: 7200
+  "3":
+    Reason: "Alasan 3"
+    Seconds: 86400
+  "4":
+    Reason: "Alasan 4"
+    Seconds: 604800
+  "5":
+    Reason: "Alasan 5"
+    Seconds: -1
+
+# detik = durasi blokir/bisu dalam hitungan detik.
+#1 jam = 3600 detik
+#1 hari = 86400 detik
+#1 minggu = 604800 detik
+#1 bulan = 2628002 detik
+#1 tahun = 31536000 detik
+# permanen = -1
+
+MuteReasons:
+  Count: 3
+  "1":
+    Reason: "Spam"
+    Seconds: 3600
+  "2":
+    Reason: "Adv"
+    Seconds: 7200
+  "3":
+    Reason: "Rasis"
+    Seconds: -1
+
+# --- Messages ---
+
+Prefix: "&8» &3TempBanMute &8| &7"
+NoPermission: "&cAnda tidak memiliki izin untuk menjalankan perintah ini."
+
+Days: "Hari"
+Day: "Hari"
+Hours: "Jam"
+Hour: "Jam"
+Minutes: "Menit"
+Minute: "Menit"
+Seconds: "Detik"
+Permanent: "Permanen"
+
+BanSuccess: "&aPemain &e%player% &atelah diblokirkan."
+MuteSuccess: "&aPemain &e%player% &atelah dibisukan."
+AlreadyBanned: "&cPemain ini sudah diblokirkan."
+AlreadyMuted: "&cPemain ini sudah dibisukan."
+UnbanSuccess: "&aPemain &e%player% &atelah dibatalkan blokir."
+UnmuteSuccess: "&aPemain &e%player% &atelah dibatalkan bisu."
+PlayerNotBanned: "&cPemain ini tidak diblokir."
+PlayerNotMuted: "&cPemain ini tidak dibisu."
+MustNumber: "&cAlasannya harus angka antara 1 dan %max%."
+Reasonlimit: "&cTidak ada alasan yang dapat ditemukan pada ID ini."
+BanScreen: "&3Kamu Di Blokirkan Dari Server. \n&3&3Alasan: &7%reason% \n&3Waktu Yang Tersisa: &7%time%"
+MuteScreen: "&cKamu Di Bisukan Dari Obrolan.\n&cAlasan: &7%reason% \n&cWaktu Yang Tersisa: &7%time%"
+BanReasonFormat: "&eID: &7%id% &8| &eAlasan: &7%reason%"
+MuteReasonFormat: "&eID: &7%id% &8| &eAlasan: &7%reason%"
+
+Check:
+  Ban:
+    Info: "&aMemuat data..."
+    Player: "&aPemain: &e%player%"
+    Reason: "&aAlasan: &e%reason%"
+    ID: "&aID: &e%id%"
+    Banner: "&aDiblokir Oleh: &e%banner%"
+    Date: "&aData: &e%date%"
+    RemainingTime: "&aWaktu Yang Tersisa: &e%time%"
+  Mute:
+    Info: "&aMemuat data..."
+    Player: "&aPemain: &e%player%"
+    Reason: "&aAlasan: &e%reason%"
+    ID: "&aID: &e%id%"
+    Muter: "&aDibisu Oleh: &e%muter%"
+    Date: "&aData: &e%date%"
+    RemainingTime: "&aWaktu Yang Tersisa: &e%time%"
+Usage:
+  BanCommand: "&7Pemakaian: &a/tempban <Pemain> <ID>"
+  UnbanCommand: "&7Pemakaian: &a/tempunban <Pemain>"
+  CheckCommand: "&7Pemakaian: &a/check <Pemain> <ban|mute>"
+  MuteCommand: "&7Pemakaian: &a/tempmute <Pemain> <ID>"
+  UnmuteCommand: "&7Pemakaian: &a/tempunmute <Pemain>"

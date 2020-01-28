@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TempBanMute:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TempBanMute_jar</output-path>
+    <root id="archive" name="TempBanMute.jar">
+      <element id="module-output" name="TempBanMute" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/mongodb.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/bson.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
