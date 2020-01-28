@@ -1,0 +1,74 @@
+name: Essentials
+author: Fahrul8676
+version: "1.14.0"
+main: Fahrul8676.essentials.Main
+api: ["1.0.1"]
+
+commands:
+    clearglobalchat:
+        aliases:
+        - cgc
+        description: Hapuskan Obrolan Global
+        permission: essentials.clearglobalchat
+    clearprivatechat:
+        aliases:
+        - cpc
+        description: Hapuskan Obrolan Pribadi
+        permission: essentials.clearprivatechat
+    timeday:
+        aliases:
+        - day
+        description: Tetapkan Waktu Siang
+        permission: essentials.timeday
+    timenight:
+        aliases:
+        - night
+        description: Tetapkan Waktu Malam
+        permission: essentials.timenight
+    weathersun:
+        aliases:
+        - sun
+        description: Tetapkan Cuaca Cerah
+        permission: essentials.weathersun
+    weatherrain:
+        aliases:
+        - rain
+        description: Tetapkan Cuaca Hujan
+        permission: essentials.weatherrain
+    stoptime:
+        aliases:
+        - spt
+        description: Hentikan Waktu
+        permission: essentials.stoptime
+    starttime:
+        aliases:
+        - stt
+        description: Mulaikan Waktu
+        permission: essentials.startime
+
+permissions:
+    essentials:
+        description: Perintah Essentials
+        children:
+            essentials.broadcast:
+                default: op
+            essentials.kickallplayer:
+                default: op
+            essentials.rules:
+                default: true
+            essentials.clearglobalchat:
+                default: op
+            essentials.clearprivatechat:
+                default: op
+            essentials.timeday:
+                default: op
+            essentials.timenight:
+                default: op
+            essentials.weathersun:
+                default: op
+            essentials.weatherrain:
+                default: op
+            essentials.stoptime:
+                default: op
+            essentials.startime:
+                default: op

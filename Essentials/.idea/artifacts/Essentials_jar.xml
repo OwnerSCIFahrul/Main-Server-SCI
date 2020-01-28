@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Essentials:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Essentials_jar</output-path>
+    <root id="archive" name="Essentials.jar">
+      <element id="module-output" name="Essentials" />
+    </root>
+  </artifact>
+</component>
