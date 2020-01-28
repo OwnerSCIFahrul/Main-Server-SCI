@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Broadcaster:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Broadcaster_jar</output-path>
+    <root id="archive" name="Broadcaster.jar">
+      <element id="module-output" name="Broadcaster" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,27 @@
+name: Broadcaster
+main: Broadcaster.Broadcaster
+version: "1.14.0"
+api: ["1.0.1"]
+author: Fahrul8676
+load: STARTUP
+description: Plugin Siaran Server
+website: https://github.com/OwnerSCIFahrul
+
+permissions:
+ broadcaster:
+  default: op
+  children:
+   broadcaster.on:
+    default: op
+   broadcaster.off:
+    default: op
+   broadcaster.reload:
+    default: op
+   broadcaster.info:
+    default: true
+   broadcaster.sendmessage:
+    default: op
+   broadcaster.sendpopup:
+    default: op
+   broadcaster.sendtitle:
+    default: op

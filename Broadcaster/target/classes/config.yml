@@ -1,0 +1,57 @@
+---
+# Format yang tersedia untuk pesan broadcast, popup, dan title:
+# - {MAXPLAYERS}: Tampilkan jumlah maksimum pemain server
+# - {TOTALPLAYERS}: Tampilkan jumlah semua pemain online
+# - {PREFIX}: Tampilkan awalan
+# - {SUFFIX}: Tampilkan akhiran
+# - {TIME}: Tampilkan waktu saat ini
+# Format yang tersedia untuk perintah sendmessage, sendpopup, dan sendtitle:
+# - {MESSAGE}: Tampilkan pesan
+# - {MAXPLAYERS}: Tampilkan jumlah maksimum pemain server
+# - {TOTALPLAYERS}: Tampilkan jumlah semua pemain online
+# - {PREFIX}: Tampilkan awalan
+# - {PLAYER}: Penerima pesan
+# - {SENDER}: Tampilkan nama pengirim
+# - {SUFFIX}: Tampilkan akhiran
+# - {TIME}: Tampilkan waktu saat ini
+prefix: "Broadcaster"
+suffix: "[Siaran]"
+# Waktu siaran (dalam detik)
+time: 15
+# Format perintah sendmessage
+sendmessage-format: "&e[{TIME}] &b[{PREFIX}] {SUFFIX} &a{SENDER}&e>&f {MESSAGE}"
+# Format tanggal\waktu. cek ini https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html untuk melihat semua format waktu
+datetime-format: "HH:mm:ss"
+# Aktifkan siaran pesan
+broadcast-enabled: true
+# Pesan siaran
+messages:
+ - "&e[{TIME}] &b[{PREFIX}]&f Pesan 1"
+ - "&e[{TIME}] &b[{PREFIX}]&f Pesan 2"
+ - "&e[{TIME}] &b[{PREFIX}]&f Pesan 3"
+# Waktu siaran bacaan (dalam detik)
+popup-time: 15
+# Durasi bacaan (dalam detik)
+popup-duration: 5
+# Format perintah sendpopup
+sendpopup-format: "&a{SENDER}&e>>&f {MESSAGE}"
+# Aktifkan siaran bacaan
+popup-broadcast-enabled: true
+# Pesan siaran bacaan
+popups:
+ - "&aSelamat datang di server Anda"
+ - "&d{TOTALPLAYERS} &edari &d{MAXPLAYERS} &eonline"
+ - "&bWaktu saat ini: &a{TIME}"
+# Waktu siaran judul (dalam detik)
+title-time: 15
+# Durasi judul (dalam detik)
+title-duration: 2
+# Format perintah sendtitle
+sendtitle-format: "&d{MESSAGE}"
+# Aktifkan siaran judul
+title-broadcast-enabled: true
+# Pesan siaran judul
+titles:
+ - "&aSelamat datang di server Anda! &bPermainan bagus!"
+ - "&eHalo selamat bermain!"
+...
