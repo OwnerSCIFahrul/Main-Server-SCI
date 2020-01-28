@@ -1,0 +1,10 @@
+name: MotdServer
+main: Fahrul8676.motd.MotdServer
+author: Fahrul8676
+version: "1.14.0"
+api: ["1.0.1"]
+
+permissions:
+  motdserver.reload.command:
+    description: "Memuat Ulang Motd Server"
+    default: op

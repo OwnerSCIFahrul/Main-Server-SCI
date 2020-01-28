@@ -1,0 +1,35 @@
+# Untuk menggunakan plugin ini dengan benar, pastikan untuk mengunduh plugin berikut:
+#   --> PlaceholderAPI  (Opsional)    [Membutuhkan KotlinLib]       https://nukkitx.com/resources/placeholderapi.104/
+#   --> KotlinLib       (Opsional)    [Membutuhkan PlaceholderAPI]       https://nukkitx.com/resources/kotlinlib.48/
+
+# Semua informasi format cek website plugin PlaceholderAPI
+
+Motd:
+  use-placeholder: true
+
+Server-Motd:
+  enabled: true
+  type: "dynamic" # static/dynamic
+  change-interval: 60 # Waktu detik hanya dalam tipe dynamic
+  # Jika tipe static tidak dapat berjalan memuat format PlaceholderAPI per detik
+  messages: # Jika tipe static hanya menggunakan satu pesan
+    - "&a%server_online%&b/&c%server_max_players% &cServer &a&lMotd&r &6Pesan 0 &c%h%&b:&c%m%"
+    - "&a%server_online%&b/&c%server_max_players% &eServer &a&lMotd&r &cPesan 1 &c%h%&b:&c%m%"
+    - "&a%server_online%&b/&c%server_max_players% &6Server &a&lMotd&r &aPesan 2 &c%h%&b:&c%m%"
+
+Join-Motd:
+  use-placeholder: true
+  enabled: true
+  type: "multi-world" # multi-world/single-world
+  single-world:
+    message: "&bBergabung &a&lMotd&r &bPesan Utama &c%time%"
+    sub-message: "&bBergabung &a&lMotd&r &bPesan &aJudul &c%time%"
+
+  multi-world:
+    world:
+      message: "&bBergabung Dunia &e%player%"
+      sub-message: "&bBergabung &a&lMotd&r &bPesan &aJudul &c%time%"
+
+    nether:
+      message: "&bBergabung Neraka &e%player%"
+      sub-message: "&bBergabung &a&lMotd&r &bPesan &aJudul &c%time%"
