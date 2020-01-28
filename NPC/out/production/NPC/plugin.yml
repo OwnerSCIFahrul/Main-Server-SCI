@@ -1,0 +1,15 @@
+name: NPC
+version: "1.14.0"
+api: ["1.0.1"]
+author: Fahrul8676
+main: idk.plugin.npc.NPC
+
+commands:
+  npc:
+    description: Perintah NPC
+    usage: "/npc"
+    permission: npc.edit
+permissions:
+  npc.edit:
+    description: "Perizinan NPC"
+    default: op
