@@ -1,0 +1,59 @@
+name: MultiPerms
+main: ru.nukkit.multiperms.MultiPermsPlugin
+version: "1.14.0"
+author: Fahrul8676
+api: ["1.0.1"]
+softdepend: [DbLib]
+description: MultiPerms - Plugin Pangkat Dan Perizinan Nukkit
+
+permissions:
+  multiperms.admin.groupaddgroup:
+    default: op
+  multiperms.admin.groupcreate:
+    default: op
+  multiperms.admin.groupinfo:
+    default: not op
+  multiperms.admin.groupremove:
+    default: op
+  multiperms.admin.groupremovegroup:
+    default: op
+  multiperms.admin.groupremoveperm:
+    default: op
+  multiperms.admin.groupsetgroup:
+    default: op
+  multiperms.admin.groupsetperm:
+    default: op
+  multiperms.admin.groupsetprefix:
+    default: op
+  multiperms.admin.groupsetsuffix:
+    default: op
+  multiperms.admin.permcheck:
+    default: not op
+  multiperms.admin.permexport:
+    default: op
+  multiperms.admin.permhelp:
+    default: op
+  multiperms.admin.permimport:
+    default: op
+  multiperms.admin.permrefresh:
+    default: op
+  multiperms.admin.permreload:
+    default: op
+  multiperms.admin.useraddgroup:
+    default: op
+  multiperms.admin.userinfo:
+    default: not op
+  multiperms.admin.userremove:
+    default: op
+  multiperms.admin.userremovegroup:
+    default: op
+  multiperms.admin.userremoveperm:
+    default: op
+  multiperms.admin.usersetgroup:
+    default: op
+  multiperms.admin.usersetperm:
+    default: op
+  multiperms.admin.usersetprefix:
+    default: op
+  multiperms.admin.usersetsuffix:
+    default: op

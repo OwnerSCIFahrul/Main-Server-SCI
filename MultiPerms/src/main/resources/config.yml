@@ -1,0 +1,56 @@
+# MultiPerms - sistem peizinan
+general:
+# Bahasa pesan. Bahasa yang didukung:
+# eng - Inggris
+# rus - Rusia
+# tur - Turki
+# idn - Indonesia
+# Kamu dapat membantu menerjemahkan plugin: https://crowdin.com/project/multipass/invite
+  language: idn
+# Simpan file terjemahan
+  language-save: false
+# Mode debug. Biasanya Kamu tidak perlu menyalakannya
+  debug: false
+permissions:
+  group:
+# Pangkat standar. Semua pemain baru akan secara otomatis bergabung dengan pangkat ini
+    default-group: Member
+# Nilai prioritas standar untuk pangkat
+    default-priority: 10
+# Gunakan nama pangkat untuk menambahkan izin tambahan. Jika opsi ini diaktifkan semua
+# anggota pangkat akan memiliki izin tambahan: peizinan.pangkat. <pangkatId>
+    group-as-permission: true
+  user:
+# Nilai prioritas standar untuk pengguna
+    default-priority: 100
+  multiworld:
+# Aktifkan/nonatifkan dukungan multiworld
+    enable: false
+# Aktifkan/nonatifkan dunia mirroring
+    mirrors:
+      world: nether_world, end_world
+storage:
+# Jenis basis data:
+# - YAML - file yaml
+# - DATABASE - MySQL atau SQLite. Diperlukan plugin DbLib: http://nukkit.ru/resources/dblib.14/
+  type: YAML
+# Interval pembaruan otomatis (untuk sistem multi-server). Jika nilai ini tidak sama dengan '0'
+# pangkat dan perizinan akan diperbarui secara otomatis.
+# Format waktu: 1s - 1 detik, 1m - 1 menit, 1h - 1 jam
+  auto-update-interval: '0'
+  database:
+# Konfigurasi basis data:
+# - DEFAULT - basis data standar, dikonfigurasi dalam plugin DbLib
+# - SQLITE  - file SQLite (nama file disediakan di bawah)
+# - MYSQL   - basis data MySQL (konfigurasi disediakan di bawah)
+    source: DEFAULT
+    sqlite:
+# Nama file SQLite
+      file: permissions.db
+# Konfigurasi MySQL
+    mysql:
+      host: localhost
+      port: 3306
+      database: database
+      username: nukkit
+      password: tikkun
