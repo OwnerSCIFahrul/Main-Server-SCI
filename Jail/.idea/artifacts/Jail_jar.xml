@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Jail:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Jail_jar</output-path>
+    <root id="archive" name="Jail.jar">
+      <element id="module-output" name="Jail" />
+    </root>
+  </artifact>
+</component>

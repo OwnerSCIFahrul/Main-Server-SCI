@@ -1,0 +1,55 @@
+name: Jail
+version: 1.14.0
+author: Fahrul8676
+api: ["1.0.1"]
+main: Fahrul8676.MainClass
+
+commands:
+  addjail:
+    description: "Memasukan Pemain Ke Penjara"
+    usage: "/addjail <pemain>"
+    permission: otu.command.addjail
+  deljail:
+    description: "Mengeluarkan Pemain Dari Penjara"
+    usage: "/deljail <pemain>"
+    permission: otu.command.deljail
+  setmodejail:
+    description: "Mengubah Mode Pemain"
+    usage: "/setmodejail <pemain>"
+    permission: otu.command.setmodejail
+  setspawnjail:
+    description: "Menyetel Lokasi Penjara"
+    usage: "/setspawnjail [<x> <y> <z> <dunia>]"
+    permission: otu.command.setspawnjail
+  listjail:
+    description: "Melihat Daftar Penjara"
+    usage: "/listjail [otu|runa] [page]"
+    permission: otu.command.listjail
+  checkplayerjail:
+    description: "Melihat Status Penjara Pemain"
+    usage: "/checkplayerjail <pemain>"
+    permission: otu.command.checkplayerjail
+  setreasonjail:
+    description: "Mengubah Alasan Penjara"
+    usage: "/setreasonjail <pemain> <alasan>"
+    permission: otu.command.setreasonjail
+
+permissions:
+  jail:
+    children:
+      otu.command:
+        children:
+          otu.command.addjail:
+            default: op
+          otu.command.deljail:
+            default: op
+          otu.command.setmodejail:
+            default: op
+          otu.command.setspawnjail:
+            default: op
+          otu.command.listjail:
+            default: op
+          otu.command.checkplayerjail:
+            default: op
+          otu.command.setreasonjail:
+            default: op
