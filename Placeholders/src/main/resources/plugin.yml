@@ -1,0 +1,9 @@
+name: Placeholders
+version: 1.14.0
+api: ["1.0.1"]
+main: com.creeperface.nukkitx.placeholders.Placeholders
+description: "Placeholder provider for nukkit"
+author: Fahrul8676
+
+depend: ["PlaceholderAPI"]
+softdepend: ["LuckPerms", "MultiPerms", "Factions", "EconomyAPI", "Residence", "SynapseAPI", "KDR"]

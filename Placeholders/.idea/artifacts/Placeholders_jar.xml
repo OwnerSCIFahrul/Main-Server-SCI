@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Placeholders:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Placeholders_jar</output-path>
+    <root id="archive" name="Placeholders.jar">
+      <element id="module-output" name="Placeholders" />
+    </root>
+  </artifact>
+</component>

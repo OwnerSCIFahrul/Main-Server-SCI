@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 12" allPlatforms="JVM [12]">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="jvmTarget" value="12" />
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="jdk" jdkName="JDK 11" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="nukkit-1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="EconomyAPI" level="project" />
+    <orderEntry type="library" name="Factions" level="project" />
+    <orderEntry type="library" name="KDR-1.0.1" level="project" />
+    <orderEntry type="library" name="LuckPerms-Nukkit-5.0.63" level="project" />
+    <orderEntry type="library" name="MultiPerms" level="project" />
+    <orderEntry type="library" name="PlaceholderAPI" level="project" />
+    <orderEntry type="library" name="Residence" level="project" />
+    <orderEntry type="library" name="synapse-api-1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
+  </component>
+</module>
