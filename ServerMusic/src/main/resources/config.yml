@@ -1,6 +1,0 @@
-# Jika "true", musik akan diputar secara otomatis saat pemain bergabung dengan permainan.
-# Nilai yang diizinkan: "true" atau "false"
-autoplay: true
-
-# Nilai yang diizinkan: "order" atau "random"
-play-mode: random
