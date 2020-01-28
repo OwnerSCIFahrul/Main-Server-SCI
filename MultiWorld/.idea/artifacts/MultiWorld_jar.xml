@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MultiWorld:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MultiWorld_jar</output-path>
+    <root id="archive" name="MultiWorld.jar">
+      <element id="module-output" name="MultiWorld" />
+    </root>
+  </artifact>
+</component>
