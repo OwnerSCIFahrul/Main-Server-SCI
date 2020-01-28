@@ -1,0 +1,6 @@
+name: ChatChange
+version: 1.14.0
+api: ["1.0.1"]
+main: Fahrul8676.chatchange.ChatChange
+authors: [Fahrul8676]
+description: Mengubah pesan obrolan!
