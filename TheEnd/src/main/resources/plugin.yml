@@ -1,0 +1,7 @@
+main: cn.wode490390.nukkit.theend.TheEnd
+name: "TheEnd"
+description: "Plugin Dunia Ender untuk Nukkit"
+author: "Fahrul8676"
+version: "1.14.0"
+api: ["1.0.1"]
+load: STARTUP
