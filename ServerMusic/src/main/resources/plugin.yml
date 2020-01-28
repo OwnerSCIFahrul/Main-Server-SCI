@@ -1,0 +1,12 @@
+main: Fahrul8676.servermusic.ServerMusicPlugin
+name: "ServerMusic"
+description: "Plugin Lagu Musik Server"
+author: "Fahrul8676"
+version: "1.14.0"
+api: ["1.0.1"]
+load: POSTWORLD
+permissions:
+  servermusic.command.servermusic:
+    default: true
+  servermusic.command.servermusicadmin:
+    default: op
