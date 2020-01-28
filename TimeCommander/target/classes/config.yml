@@ -1,0 +1,7 @@
+# Daftar perintah untuk dieksekusi plugin pada waktu yang ditentukan
+# Command: Perintah dan jumlah perintah untuk mengeksekusi
+# Time: Jumlah waktu dalam menit
+  Command1: say saya membuat server saya luar biasa dengan banyak plugin!
+  Time1: 1
+  Command2: say luar biasa!
+  Time2: 1

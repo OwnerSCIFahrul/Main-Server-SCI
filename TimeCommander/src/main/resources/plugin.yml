@@ -1,0 +1,6 @@
+name: TimeCommander
+main: com.haniokasai.nukkit.TimeCommander.Main
+version: 1.14.0
+author: Fahrul8676
+api: ["1.0.1"]
+description: Plugin Perintah Dengan Waktu Tertentu
