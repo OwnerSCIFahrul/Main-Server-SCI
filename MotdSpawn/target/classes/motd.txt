@@ -1,0 +1,4 @@
+&6Selamat Datang &c%player% &6Di &cNukkit Server&6!
+&6Ada &c%server_online%&6/&c%server_max_players% &6Pemain Online.
+&6Ikuti Aturannya &cSelalu&6!
+&6Terima Kasih Dan &cSelamat Bersenang-Senang&6!

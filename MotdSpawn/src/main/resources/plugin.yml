@@ -1,0 +1,12 @@
+name: MotdSpawn
+main: Fahrul8676.motd.MotdSpawn
+version: "1.14.0"
+author: Fahrul8676
+
+api: ["1.0.1"]
+load: POSTWORLD
+
+permissions:
+  motdspawnreload.command:
+    description: "Memuat Ulang Motd Spawn"
+    default: op

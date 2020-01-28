@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MotdSpawn:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MotdSpawn_jar</output-path>
+    <root id="archive" name="MotdSpawn.jar">
+      <element id="module-output" name="MotdSpawn" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="MotdSpawn:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f80fa5a9-d7d9-4d3b-865b-021336c1c130" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UvRlXD5SZnxegxLU7SJAKCd1u8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549014868525" />
+    <property name="jdk.selected.JAVA_MODULE" value="JDK 11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15429688" />
+    <property name="project.structure.side.proportion" value="0.19885057" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Membuat plugin\Coding Java\Folder Kode Plugin\ToolBox2\src\main\resources" />
+      <recent name="D:\Membuat plugin\Coding Java\Folder Kode Plugin\ToolBox2\src\main" />
+      <recent name="D:\Membuat plugin\Coding Java\Folder Kode Plugin\ToolBox2\src\java" />
+      <recent name="D:\Membuat plugin\Coding Java\Folder Kode Plugin\ToolBox2\src" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f80fa5a9-d7d9-4d3b-865b-021336c1c130" name="Default Changelist" comment="" />
+      <created>1549010079139</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549010079139</updated>
+      <workItem from="1553932725886" duration="1779000" />
+      <workItem from="1567618745051" duration="678000" />
+      <workItem from="1567619468355" duration="128000" />
+      <workItem from="1567620531053" duration="81000" />
+      <workItem from="1567620691507" duration="50000" />
+      <workItem from="1567620766234" duration="55000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2771000" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="357" y="79" key="FileChooserDialogImpl" timestamp="1580239046023">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="357" y="79" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1580239046023" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1580239080559">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580239080559" />
+  </component>
+</project>

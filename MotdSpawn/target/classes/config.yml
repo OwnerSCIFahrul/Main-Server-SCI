@@ -1,0 +1,29 @@
+# Untuk menggunakan plugin ini dengan benar, pastikan untuk mengunduh plugin berikut:
+#   --> PlaceholderAPI  (Opsional)    [Membutuhkan KotlinLib]       https://nukkitx.com/resources/placeholderapi.104/
+#   --> KotlinLib       (Opsional)    [Membutuhkan PlaceholderAPI]       https://nukkitx.com/resources/kotlinlib.48/
+
+# +============================================+ #
+# I                Basic Config                I #
+# +============================================+ #
+
+motd:
+  use-placeholder: true
+
+messages:
+  # Perintah untuk memuat ulang Config adalah /motdreload
+  #
+
+  # aktifkan silent first join untuk pemain dengan izin op
+  silentfirstjoin_enabled: false
+
+  # Kamu dapat mengubah Motd dalam file "motd.txt"
+  enable-motd: true
+
+  # Untuk nonaktifkan first/join/leave message, atur properti seperti ''
+
+  # Gunakan format '%player%' untuk menampilkan nama pemain
+  # Gunakan format %time% untuk menampilkan waktu server
+  # Semua informasi format cek website plugin PlaceholderAPI
+  join-message: '&e%player% &atelah masuk server &c%time%'
+  leave-message: '&e%player% &ctelah keluar server &c%time%'
+  first_join-message: '&e%player% &etelah bergabung server pertama kali &c%time%'
