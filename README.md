@@ -6,4 +6,3 @@
 ## Use Intellij Idea to Edit and Change My Code Plugin Language
 
 # Happy Enjoy!
-Y
